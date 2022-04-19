@@ -3,191 +3,121 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: true # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Henry Sachs
+    tagline: Senior Cloud Specialist
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: henrysachs@gmail.com
+    phone:
+    citizenship: german
+    website: henrysachs.github.io/online-cv/ #do not add http://
+    linkedin: henry-sachs
+    xing: Henry_Sachs2
+    github: henrysachs
+    gitlab: DerAstronaut
+    twitter: '@Henry_Astro'
+    stack-overflow: 6813369/henry-sachs # Number/Username, e.g. 123456/alandoe
+    codewars: henrysachs
+    pdf: https://drive.google.com/file/d/17dq5gomhCXfQ8-UbS9GtzbmSOHUHww58/view?usp=sharing
 
     languages:
-      - idiom: English
+      - idiom: German
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: English
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Bouldern
         link:
 
-      - item: Snowboarding
+      - item: Programming
         link:
 
-      - item: Cooking
+      - item: Gaming
         link:
 
 career-profile:
-    title: Career Profile
+    title: Senior Cloud Specialist
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Good at learning new things fast. Pushing technologies to the edge of their possibilities. Worked as a student for DB Systel and got a job offer after that. There I got some experience in Linux administration and later on in the development of Android- and Web-Apps. After that my team and me developed [Tickin](https://www.tickin.de) which is a check in be out system for Deutsche Bahn. Past launch i switched to a Team which is focused on designing applications which scale in the AWS Cloud.
+
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Bachelor of Engineering
+      university: Duale Hochschule Gera Eisenach
+      time: 2014 - 2017
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Majored in applied Computer Science.
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Cloud Specialist
+      time: 2020 - Present
+      company: DB Systel GmbH
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Helping Customers bringing their Software into the Cloud using native AWS Services. Most of the Support is done bringing applications into Containers and Kubernetes. Using AWS managed Services to shift most of the Operations to AWS. Developing custom Constructs for the AWS CDK. Some AWS Services used:
+        - EKS
+        - ECS
+        - EC2
+        - RDS
+        - MSK
+        - Elasticache
+        - Cloudformation/SSM/S3
+    - role: Software Engineer
+      time: 2017 - 2020
+      company: DB Systel GmbH
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Developing native apps (Android and iOS) and Progressive Web Applications (Angular). Designing Architectures that scale.
 projects:
-    title: Projects
+    title: Projects &amp; Contributions
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Projects &amp; Contributions I did in my free time
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Teampulse
+        tagline: "A PWA to track Team Metrics defined by the teams itself"
+      - title: Contributing in Various Open Source Projects
+        tagline: "Check the Github Profile linked on the sidebar"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Node and Express JS
         level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
       - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
         level: 95%
-
-      - name: Ruby on Rails
+      - name: GitLab CI
+        level: 95%
+      - name: Git
+        level: 90%
+      - name: AWS CDK
         level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
+      - name: Typescript
+        level: 85%
+      - name: Cloudformation
+        level: 85%
+      - name: Typescript
+        level: 85%
+      - name: Android & iOS
+        level: 85%
+      - name: Containerization
+        level: 85%
+      - name: Amazon Web Services
+        level: 75%
+      - name: Kubernetes
+        level: 75%
+      - name: Java
+        level: 70%
+      - name: Golang
+        level: 65%
+      - name: PostgreSQL and MariaDB
+        level: 50%
+      - name: C/C++
+        level: 40%
+      - name: Spring Boot
+        level: 40%
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
