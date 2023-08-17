@@ -5,6 +5,7 @@
 sidebar:
     about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: true # set to False if you want education in main section instead of in sidebar
+    position: right # position of the sidebar : left or right
 
     # Profile information
     name: Henry Sachs
@@ -23,7 +24,7 @@ sidebar:
     twitter: '@Henry_Astro'
     stack-overflow: 6813369/henry-sachs # Number/Username, e.g. 123456/alandoe
     codewars: henrysachs
-    pdf: https://drive.google.com/file/d/1B_tsHB4Al_UvZylS1uJXNst7eDEUJH2E/view?usp=sharing
+    pdf: https://drive.google.com/file/d/17dq5gomhCXfQ8-UbS9GtzbmSOHUHww58/view?usp=drive_link
 
     languages:
       - idiom: German
@@ -43,43 +44,64 @@ sidebar:
         link:
 
 career-profile:
-    title: Senior Cloud Specialist
+    title: Platform Engineer
     summary: |
-      Good at learning new things fast. Pushing technologies to the edge of their possibilities. Worked as a student for DB Systel and got a job offer after that. There I got some experience in Linux administration and later on in the development of Android- and Web-Apps. After that my team and me developed [Tickin](https://www.tickin.de) which is a check in be out system for Deutsche Bahn. Past launch i switched to a Team which is focused on designing applications which scale in the AWS Cloud.
+      Good at learning new things fast. Pushing technologies to the edge of their possibilities. Worked as a student for DB Systel and got a job offer after that. There I got some experience in Linux administration and later on in the development of Android- and Web-Apps. After that my team and me developed [Tickin](https://www.tickin.de) which is a check in be out system for Deutsche Bahn. Past launch i switched to a Team which is focused on designing applications which scale in the AWS Cloud. Currently building internal Developer Portals with Backstage.io and Kubernetes as a Platform
 
 education:
-    - degree: Bachelor of Engineering
-      university: Duale Hochschule Gera Eisenach
-      time: 2014 - 2017
-      details: |
-        Majored in applied Computer Science.
+    title: Education
+    info:
+      - degree: Bachelor of Engineering
+        university: Duale Hochschule Gera Eisenach
+        time: 2014 - 2017
+        details: |
+          Majored in applied Computer Science.
 experiences:
-    - role: Cloud Specialist
-      time: 2020 - Present
-      company: DB Systel GmbH
-      details: |
-        Helping Customers bringing their Software into the Cloud using native AWS Services. Most of the Support is done bringing applications into Containers and Kubernetes. Using AWS managed Services to shift most of the Operations to AWS. Developing custom Constructs for the AWS CDK. Some AWS Services used:
-        - EKS
-        - ECS
-        - EC2
-        - RDS
-        - MSK
-        - Elasticache
-        - Cloudformation/SSM/S3
-    - role: Software Engineer
-      time: 2017 - 2020
-      company: DB Systel GmbH
-      details: |
-        Developing native apps (Android and iOS) and Progressive Web Applications (Angular). Designing Architectures that scale.
+    title: Experiences
+    info:
+      - role: Platform Engineer
+        time: 2023 - Present
+        company: DB Systel GmbH
+        details: |
+          Helping Developers ship their Software in a compliant way and making things scalable. The Underlying Platform is Kubernetes and the CNCF Universe around it:
+            - EKS
+            - Nginx-Ingress
+            - Backstage.io
+            - Crossplane
+            - AWS-CDK
+            - Kyverno
+            - Trivy
+            - SOPS and Secretsmanagent 
+            - Flux
+            - Helm
+      - role: Cloud Specialist
+        time: 2020 - 2023
+        company: DB Systel GmbH
+        details: |
+          Helping Customers bringing their Software into the Cloud using native AWS Services. Most of the Support is done bringing applications into Containers and Kubernetes. Using AWS managed Services to shift most of the Operations to AWS. Developing custom Constructs for the AWS CDK. Some AWS Services used:
+          - EKS
+          - ECS
+          - EC2
+          - RDS
+          - MSK
+          - Elasticache
+          - Cloudformation/SSM/S3
+      - role: Software Engineer
+        time: 2017 - 2020
+        company: DB Systel GmbH
+        details: |
+          Developing native apps (Android and iOS) and Progressive Web Applications (Angular). Designing Architectures that scale.
 projects:
     title: Projects &amp; Contributions
     intro: >
       Projects &amp; Contributions I did in my free time
     assignments:
-      - title: Teampulse
-        tagline: "A PWA to track Team Metrics defined by the teams itself"
+      - title: Building a custom Kubernetes Cluster at Home via Talos Linux
+        tagline: "Check the K8s Repo on my GitHub Repo"
       - title: Contributing in Various Open Source Projects
         tagline: "Check the Github Profile linked on the sidebar"
+      - title: Teampulse
+        tagline: "A PWA to track Team Metrics defined by the teams itself"
 
 skills:
     title: Skills &amp; Proficiency
@@ -93,6 +115,8 @@ skills:
         level: 95%
       - name: Git
         level: 90%
+      - name: Kubernetes
+        level: 85%
       - name: AWS CDK
         level: 85%
       - name: Typescript
@@ -103,16 +127,18 @@ skills:
         level: 85%
       - name: Android & iOS
         level: 85%
+      - name: Flux / GitOps
+        level: 85%
       - name: Containerization
         level: 85%
+      - name: Golang
+        level: 75%
       - name: Amazon Web Services
         level: 75%
-      - name: Kubernetes
-        level: 75%
+      - name: Crossplane
+        level: 70%
       - name: Java
         level: 70%
-      - name: Golang
-        level: 65%
       - name: PostgreSQL and MariaDB
         level: 50%
       - name: C/C++
