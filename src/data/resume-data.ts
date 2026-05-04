@@ -1,173 +1,127 @@
-import type { ResumeData } from "@/lib/types";
+import type { ResumeData } from '@/lib/types';
 
 export const RESUME_DATA: ResumeData = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
-  about: "Full Stack Engineer building products from the ground up.",
+  name: 'Henry Sachs',
+  initials: 'HS',
+  location: 'Erfurt, Germany, CET',
+  locationLink: 'https://www.google.com/maps/place/Erfurt',
+  about: 'Platform Engineer building developer platforms and supply chain security tooling.',
   summary:
-    "Full Stack Engineer with 15+ years of experience and 10+ years working remotely. Building high-performance web applications, leading distributed teams, and creating open source tools used by thousands of developers.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    'Platform Engineer with 10+ years of experience at Deutsche Bahn. Evolved through Web (React, Angular), Mobile (Android, iOS), Operations (Kubernetes) to DevOps/Platform Engineering with Crossplane and Backstage. Passionate about supply chain security and SLSA.',
+  avatarUrl: 'https://avatars.githubusercontent.com/u/17173951?v=4',
+  personalWebsiteUrl: 'https://github.com/henrysachs/henrysachs',
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: 'henrysachs@gmail.com',
+    tel: '',
     social: [
       {
-        name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
-        icon: "github",
+        name: 'GitHub',
+        url: 'https://github.com/henrysachs',
+        icon: 'github'
       },
       {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
-        icon: "linkedin",
+        name: 'LinkedIn',
+        url: 'https://www.linkedin.com/in/henry-sachs/',
+        icon: 'linkedin'
       },
       {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: "x",
-      },
-    ],
+        name: 'X',
+        url: 'https://x.com/Henry_Astro',
+        icon: 'x'
+      }
+    ]
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
-    },
+      school: 'Duale Hochschule Gera Eisenach',
+      degree: "Bachelor's Degree in Computer Science (Dual Studies)",
+      start: '2014',
+      end: '2017'
+    }
   ],
   work: [
     {
-      company: "Motion",
-      link: "https://motionapp.com/",
-      badges: ["Remote", "AI", "React", "Next.js", "TypeScript", "AdonisJS"],
-      title: "Senior Software Engineer",
-      start: "2025",
+      company: 'DB Systel GmbH',
+      link: 'https://www.dbsystel.de',
+      badges: ['Crossplane', 'Backstage', 'Kubernetes', 'Golang', 'TypeScript'],
+      title: 'Platform Engineer',
+      start: '2023',
       end: null,
       description:
-        "Building an internal AI agents platform that enables marketing teams to create and manage AI-powered workflows.",
-    },
-    {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
-      start: "2024",
-      end: "2025",
-      description:
-        "Led technical architecture of a blockchain-based film funding platform.",
+        'Building internal developer platforms enabling product teams to self-service infrastructure and deployments.',
       highlights: [
-        "Architected migration from CRA to Next.js for improved performance, SEO, and DX",
-        "Established release process enabling faster deployments and reliable rollbacks",
-        "Implemented system-wide monitoring and security improvements",
-      ],
+        'Contributed to open source projects such as gitlab, crossplane and syft',
+        'Designing and operating Crossplane-based infrastructure platform',
+        'Building developer portal with Backstage for service catalog and golden paths',
+        'Driving supply chain security adoption with SLSA and Sigstore',
+        'Shaping platform engineering best practices and standards across the organization',
+        'Helping Developers write more secure code and build more secure software supply chains'
+      ]
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
-      start: "2021",
-      end: "2024",
-      description:
-        "Led a product squad building an enterprise agile meeting platform.",
+      company: 'DB Systel GmbH',
+      link: 'https://www.dbsystel.de',
+      badges: ['Kubernetes', 'AWS CDK', 'CI/CD', 'Docker', 'ansible'],
+      title: 'DevOps Engineer',
+      start: '2020',
+      end: '2023',
+      description: 'Operated Kubernetes clusters and built CI/CD pipelines for development teams.',
       highlights: [
-        "Built design system with Tailwind CSS, improving development speed and time to market",
-        "Implemented engineering practices: PR automation, code review guidelines, and workflows",
-        "Open source contributions to Relay DevTools and React i18n tooling",
-      ],
+        'Managed multi-cluster Kubernetes environments',
+        'Implemented GitOps workflows and infrastructure as code',
+        'Containerized legacy applications and migrated workloads to Kubernetes'
+      ]
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      start: "2015",
-      end: "2021",
-      description:
-        "Transitioned from mobile to full-stack development while leading distributed teams across multiple client projects.",
+      company: 'DB Systel GmbH',
+      link: 'https://www.dbsystel.de',
+      badges: ['React', 'Angular', 'TypeScript', 'Android', 'iOS', 'Flutter'],
+      title: 'Software Developer',
+      start: '2017',
+      end: '2020',
+      description: 'Full-stack and mobile development across multiple Deutsche Bahn products.',
       highlights: [
-        "Led frontend team at Evercast, building real-time platform supporting 30+ users per room with HD streaming and collaboration tools",
-        "Developed offline-first Android app for DKMS, improving donor registration process",
-        "Led development teams across multiple successful client projects",
-      ],
+        'Built web and mobile apps with React, Angular, Flutter, Android and iOS',
+        'Contributed to internal open source initiatives'
+      ]
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      start: "2012",
-      end: "2015",
+      company: 'DB Systel GmbH',
+      link: 'https://www.dbsystel.de',
+      badges: ['Dual Studies', 'Linux'],
+      title: 'Dual Student - Software Development',
+      start: '2014',
+      end: '2017',
       description:
-        "First Android developer, grew and led a team of 15+ engineers. Established mobile engineering culture and delivery processes.",
-      highlights: [
-        "Developed apps for major Polish companies including LOT, Polskie Radio, and Agora",
-        "Built and mentored high-performing mobile development team",
-      ],
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale. Built strong foundations in software architecture, testing practices, and cross-team collaboration.",
-    },
+        'Combined academic studies at Duale Hochschule Gera Eisenach with practical software development at DB Systel.'
+    }
   ],
   skills: [
-    "React/Next.js",
-    "TypeScript",
-    "Node.js",
-    "AI/LLMs",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "GraphQL",
-    "System Architecture",
-    "Remote Team Leadership",
+    'Crossplane',
+    'Backstage',
+    'Kubernetes',
+    'Golang',
+    'TypeScript',
+    'React',
+    'Supply Chain Security',
+    'Terraform',
+    'Docker',
+    'GitLab CI',
+    'ansible',
+    'AWS CDK',
+    'FluxCD',
+    'Flutter',
+    'Angular'
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "AI", "Browser Extension"],
-      description: "Autonomous QA AI agent for web applications",
+      title: 'Financensor',
+      techStack: ['TypeScript', 'Go', 'Docker'],
+      description: 'Shared expense tracker for groups and trips. Split costs, track payments, settle up.',
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "43frames",
-      techStack: ["TypeScript", "Next.js", "AI"],
-      description: "AI-powered image and video generation studio",
-      link: {
-        label: "43frames.com",
-        href: "https://43frames.com/",
-      },
-    },
-    {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-      description:
-        "Open source, print-friendly CV template. 9,600+ stars on GitHub",
-      link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
-      },
-    },
-  ],
+        label: 'GitHub',
+        href: 'https://github.com/henrysachs/financensor'
+      }
+    }
+  ]
 } as const;
