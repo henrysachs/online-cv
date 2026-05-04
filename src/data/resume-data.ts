@@ -9,7 +9,7 @@ export const RESUME_DATA: ResumeData = {
   summary:
     'Platform Engineer with 10+ years of experience at Deutsche Bahn. Evolved through Web (React, Angular), Mobile (Android, iOS), Operations (Kubernetes) to DevOps/Platform Engineering with Crossplane and Backstage. Passionate about supply chain security and SLSA.',
   avatarUrl: 'https://avatars.githubusercontent.com/u/17173951?v=4',
-  personalWebsiteUrl: 'https://github.com/henrysachs/henrysachs',
+  personalWebsiteUrl: 'https://me.hachs.dev',
   contact: {
     email: 'henrysachs@gmail.com',
     tel: '',
